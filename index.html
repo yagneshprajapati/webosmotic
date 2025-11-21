@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mycontainer">
+
+    
+<div class="wrapper"> 
+
+    <form name="myform" id="myform">
+
+           
+                        <div class="tableTitle" >
+                            Add Employee
+                        </div>
+                 
+                        <div class="inputs wrapper2">
+                            
+                       
+                        <p  >Name : </p>
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="Enter name"  id="name" name="name" />
+                            <br>
+                            <small id="nameError" class="error-msg"></small>
+                        </div>
+
+                        <p >Gender : </p>
+                        <div class="input-wrapper"> 
+                            <input type="radio" name="gender" value="male" id="male" checked> Male 
+                            <input type="radio" name="gender" value="female" id="female" > female
+                            <br>
+                            <small id="genderError" class="error-msg"></small>
+                        </div>
+
+                   
+                            <p  >Date of birth : </p>
+                        <div class="input-wrapper"> 
+                            <input type="date" id="dob" name="dob"  />
+                            <br>
+                            <small id="dobError" class="error-msg"></small>
+                       </div>
+
+
+                        <p >Email : </p>
+    <div class="input-wrapper"> 
+                           
+                      
+                            <input type="email" id="email" name="email" placeholder="example@email.com"  />
+                             <br>
+                            <small id="emailError" class="error-msg"></small>
+                      </div>
+
+
+                      <p  >phone : </p>
+                      
+                     <div class="input-wrapper"> 
+                            
+                            <input type="tel" id="phone" name="phone" placeholder="1234567898"  />
+                             <br>
+                            <small id="phoneError" class="error-msg"></small>
+                      </div>
+                    
+
+                                                  <p>Hobbies : </p>
+                   <div class="input-wrapper"> 
+
+
+                            <input type="checkbox" value="cricket" id="cricket" > Cricket </input>
+                            <input type="checkbox" value="chess"  id="chess"  > Chess</input>
+                            <input type="checkbox" value="music"  id="music"  > Music</input>
+                             <br>
+                            <small id="dobError" class="error-msg"></small>
+                      </div>
+  <p> </p>
+<div class="input-wrapper"> 
+                            <button type="submit" id="mysubmit" class="btn" > Submit </button> 
+                   </div>
+               </div>
+
+            
+
+        
+    </form>
+</div>
+
+
+ 
+<div class="wrapper display-wrapper"> 
+   
+
+           
+                        <div class="tableTitle" >
+                            Display
+                        </div>
+                 
+                        <div class="display-container">
+
+ 
+                    
+ 
+<div class="mytable">
+    
+
+
+        <table id="myTable">
+
+            <thead>
+                <tr>
+                    <th>
+                        Name 
+                    </th>
+                    <th>
+                        Gender 
+                    </th>
+                    <th>
+                        DOB 
+                    </th>
+                    <th>
+                        Email 
+                    </th>
+                    <th>
+                        Phone 
+                    </th>
+                    <th>
+                        Hobbies 
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody id="data">
+
+                
+            </tbody>
+
+        </table>
+</div>
+
+</div>
+   </div>
+      </div>
+
+
+ 
+  
+<script src="script.js"></script>
+</body>
+</html>
